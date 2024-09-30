@@ -22,11 +22,14 @@
                             <input class="container__input"  id="cantidad" type="number">
                         </label>
                         <button class="boton" id="borrar" onclick="elegirPassword()">choose password</button>
-                        <button class="boton"  onclick=location.reload()>Borrar</button>
+                        <button class="boton" onclick="borrar()">Borrar</button>
+                        <button id="copiar" onclick="copiar()" class="boton">copiar</button>
+                        <!-- onclick=location.reload() -->
 
                     </div> 
                     <div class="container__campo">
                         <input class="container__contrasena" type="text" id="contrasena" placeholder="contraseña">
+                        <P id="mensajeSeguridad" class="texto_mensaje"></P>
                     </div>
                 </div> 
             </div>
